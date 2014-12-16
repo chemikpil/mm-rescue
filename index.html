@@ -13,20 +13,26 @@
   <meta property="og:description" content="">
   
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:400,700&subset=latin,latin-ext'>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Maciej Maćkowiak - MM Rescue</h1>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Maciej Maćkowiak - MM Rescue</h1>
     
-    <nav>
-      <ul>
-        <li><a href="#doswiadczenie">Doświadczenie</a></li>
-        <li><a href="#uslugi">Co mogę dla ciebie zrobić</a></li>
-        <li><a href="#kontakt">Kontakt</a></li>
-        <li><a href="http://facebook.pl">Facebook.pl</a></li>
-      </ul>
-    </nav>
+      <label class="mobile-menu__trigger" for="mobile-menu"><i class="icon-list"></i></label>
+      <input type="checkbox" id="mobile-menu" class="mobile-menu__checkbox">
+      <nav class="main-nav">
+        <ul>
+          <li class="main-nav__item"><a href="#doswiadczenie">Doświadczenie</a></li>
+          <li class="main-nav__item"><a href="#uslugi">Co mogę dla ciebie zrobić</a></li>
+          <li class="main-nav__item"><a href="#kontakt">Kontakt</a></li>
+          <li class="main-nav__item"><a href="http://facebook.pl"><i class="icon-facebook"></i></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   
   <section id="o-mnie">

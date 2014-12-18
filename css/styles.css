@@ -60,6 +60,14 @@ a:active {
 .button--light {
   border: 3px solid;
   border-radius: 10px;
+  
+  color: #e63e4e;
+}
+
+.button--light:hover {
+  background-color: #e63e4e;
+  border-color: #e63e4e;
+  color: #fff;
 }
 
 /** HEADER **/
@@ -142,6 +150,10 @@ a:active {
   color: #fff;
   font: 700 1.4rem / 3rem "Lato", sans-serif;
   text-decoration: none;
+}
+
+.main-nav__item > a:hover {
+  opacity: .8;
 }
 
 .main-nav__item .icon-facebook {
@@ -232,16 +244,14 @@ a:active {
   font: 1.8rem / 3rem "Lato", sans-serif;
 }
 
-@media screen and (min-width: 768px) {
-  .about__container .button {
-    float: right;
-  }
+@media screen and (min-width: 1024px) {
+  
 }
 
 @media screen and (min-width: 1024px) {
   .about__container {
     position: relative;
-    padding: 100px 60px 100px 430px;
+    padding: 100px 60px 100px 480px;
     
     text-align: left;
     z-index: 1;
@@ -255,10 +265,10 @@ a:active {
   .about__title__hello {
     display: inline-block;
     position: absolute;
-    top: -70px;
-    right: -95px;
+    top: -65px;
+    right: -85px;
     
-    font-size: 12rem;
+    font-size: 10rem;
   }
   
   .avatar {
@@ -272,9 +282,17 @@ a:active {
     z-index: -1;
   }
   
+  .avatar img {
+    border-radius: 50%;
+  }
+  
   .avatar--about {
     position: absolute;
     top: 35px;
     left: 20px;
+  }
+  
+  .about__container .button {
+    float: right;
   }
 }

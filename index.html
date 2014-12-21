@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="header">
+  <header id="top" class="header">
     <div class="container">
       <h1 class="logo">Maciej Maćkowiak - MM Rescue</h1>
     
@@ -43,7 +43,7 @@
 
       <p class="about__description">Invite the white bear in. This suggestion comes from Daniel Wegner himself and while it seems counterintuitive, it does work: Make the intrusive thought intentional, thus bringing it into full consciousness. Say it out loud or write it down. If you’re prone to rumination, talk out your intrusive thoughts with close friends (or a therapist).</p>
 
-      <a href="#uslugi" class="button button--light">Zobacz co mogę dla Ciebie zrobić</a>
+      <a href="#uslugi" class="button button--light" data-scroll>Zobacz co mogę dla Ciebie zrobić</a>
     </div>
   </section>
   
@@ -136,10 +136,15 @@
     <footer class="container footer">
       <img src="img/logo-footer.png" alt="Maciej Maćkowiak" class="footer__item footer__logo">
 
-      <a href="#top" class="footer__item footer__to-top"><i class="icon-arrow-up"></i><br>wróć na górę</a>
+      <a href="#top" class="footer__item footer__to-top" data-scroll><i class="icon-arrow-up"></i><br>wróć na górę</a>
 
       <a href="http://facebook.pl" class="footer__time footer__facebook"><i class="icon-facebook"></i></a>
     </footer>
   </div>
+  
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+    smoothScroll.init();
+  </script>
 </body>
 </html>

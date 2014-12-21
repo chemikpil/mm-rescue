@@ -437,7 +437,7 @@ a:active {
   margin: 0;
   padding: 60px 0;
   
-  background: linear-gradient(to bottom, transparent, #c1cacd);
+  background: linear-gradient(to bottom, #dadfe1, #c1cacd);
   
   color: #fff;
 }

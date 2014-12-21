@@ -23,8 +23,14 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-paperplane:before {
+	content: "\e602";
+}
 .icon-list:before {
 	content: "\e601";
+}
+.icon-arrow-up:before {
+	content: "\e603";
 }
 .icon-facebook:before {
 	content: "\e600";

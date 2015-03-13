@@ -280,7 +280,7 @@ a:active {
 @media screen and (min-width: 1024px) {
   .about__container {
     position: relative;
-    padding: 100px 60px 100px 480px;
+    padding: 100px 60px 100px 520px;
     
     text-align: left;
     z-index: 1;
